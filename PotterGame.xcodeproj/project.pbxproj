@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42AFC46B22681D33007FB06D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AFC46A22681D33007FB06D /* AppDelegate.swift */; };
+		42AFC46D22681D33007FB06D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42AFC46C22681D33007FB06D /* GameScene.sks */; };
+		42AFC46F22681D33007FB06D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42AFC46E22681D33007FB06D /* Actions.sks */; };
+		42AFC47122681D33007FB06D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AFC47022681D33007FB06D /* GameScene.swift */; };
+		42AFC47322681D33007FB06D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AFC47222681D33007FB06D /* ViewController.swift */; };
+		42AFC47522681D35007FB06D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42AFC47422681D35007FB06D /* Assets.xcassets */; };
+		42AFC47822681D35007FB06D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AFC47622681D35007FB06D /* Main.storyboard */; };
+		42AFC48422681D36007FB06D /* PotterGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AFC48322681D36007FB06D /* PotterGameTests.swift */; };
+		42AFC48F22681D36007FB06D /* PotterGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AFC48E22681D36007FB06D /* PotterGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42AFC48022681D35007FB06D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42AFC45F22681D33007FB06D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42AFC46622681D33007FB06D;
+			remoteInfo = PotterGame;
+		};
+		42AFC48B22681D36007FB06D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42AFC45F22681D33007FB06D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42AFC46622681D33007FB06D;
+			remoteInfo = PotterGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42AFC46722681D33007FB06D /* PotterGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PotterGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42AFC46A22681D33007FB06D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42AFC46C22681D33007FB06D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		42AFC46E22681D33007FB06D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		42AFC47022681D33007FB06D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		42AFC47222681D33007FB06D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42AFC47422681D35007FB06D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42AFC47722681D35007FB06D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42AFC47922681D35007FB06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42AFC47A22681D35007FB06D /* PotterGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PotterGame.entitlements; sourceTree = "<group>"; };
+		42AFC47F22681D35007FB06D /* PotterGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotterGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42AFC48322681D36007FB06D /* PotterGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotterGameTests.swift; sourceTree = "<group>"; };
+		42AFC48522681D36007FB06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42AFC48A22681D36007FB06D /* PotterGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotterGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42AFC48E22681D36007FB06D /* PotterGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotterGameUITests.swift; sourceTree = "<group>"; };
+		42AFC49022681D36007FB06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42AFC46422681D33007FB06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AFC47C22681D35007FB06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AFC48722681D36007FB06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42AFC45E22681D33007FB06D = {
+			isa = PBXGroup;
+			children = (
+				42AFC46922681D33007FB06D /* PotterGame */,
+				42AFC48222681D36007FB06D /* PotterGameTests */,
+				42AFC48D22681D36007FB06D /* PotterGameUITests */,
+				42AFC46822681D33007FB06D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42AFC46822681D33007FB06D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42AFC46722681D33007FB06D /* PotterGame.app */,
+				42AFC47F22681D35007FB06D /* PotterGameTests.xctest */,
+				42AFC48A22681D36007FB06D /* PotterGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42AFC46922681D33007FB06D /* PotterGame */ = {
+			isa = PBXGroup;
+			children = (
+				42AFC46A22681D33007FB06D /* AppDelegate.swift */,
+				42AFC46C22681D33007FB06D /* GameScene.sks */,
+				42AFC46E22681D33007FB06D /* Actions.sks */,
+				42AFC47022681D33007FB06D /* GameScene.swift */,
+				42AFC47222681D33007FB06D /* ViewController.swift */,
+				42AFC47422681D35007FB06D /* Assets.xcassets */,
+				42AFC47622681D35007FB06D /* Main.storyboard */,
+				42AFC47922681D35007FB06D /* Info.plist */,
+				42AFC47A22681D35007FB06D /* PotterGame.entitlements */,
+			);
+			path = PotterGame;
+			sourceTree = "<group>";
+		};
+		42AFC48222681D36007FB06D /* PotterGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				42AFC48322681D36007FB06D /* PotterGameTests.swift */,
+				42AFC48522681D36007FB06D /* Info.plist */,
+			);
+			path = PotterGameTests;
+			sourceTree = "<group>";
+		};
+		42AFC48D22681D36007FB06D /* PotterGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42AFC48E22681D36007FB06D /* PotterGameUITests.swift */,
+				42AFC49022681D36007FB06D /* Info.plist */,
+			);
+			path = PotterGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AFC46622681D33007FB06D /* PotterGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42AFC49322681D36007FB06D /* Build configuration list for PBXNativeTarget "PotterGame" */;
+			buildPhases = (
+				42AFC46322681D33007FB06D /* Sources */,
+				42AFC46422681D33007FB06D /* Frameworks */,
+				42AFC46522681D33007FB06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PotterGame;
+			productName = PotterGame;
+			productReference = 42AFC46722681D33007FB06D /* PotterGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42AFC47E22681D35007FB06D /* PotterGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42AFC49622681D36007FB06D /* Build configuration list for PBXNativeTarget "PotterGameTests" */;
+			buildPhases = (
+				42AFC47B22681D35007FB06D /* Sources */,
+				42AFC47C22681D35007FB06D /* Frameworks */,
+				42AFC47D22681D35007FB06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42AFC48122681D35007FB06D /* PBXTargetDependency */,
+			);
+			name = PotterGameTests;
+			productName = PotterGameTests;
+			productReference = 42AFC47F22681D35007FB06D /* PotterGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42AFC48922681D36007FB06D /* PotterGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42AFC49922681D36007FB06D /* Build configuration list for PBXNativeTarget "PotterGameUITests" */;
+			buildPhases = (
+				42AFC48622681D36007FB06D /* Sources */,
+				42AFC48722681D36007FB06D /* Frameworks */,
+				42AFC48822681D36007FB06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42AFC48C22681D36007FB06D /* PBXTargetDependency */,
+			);
+			name = PotterGameUITests;
+			productName = PotterGameUITests;
+			productReference = 42AFC48A22681D36007FB06D /* PotterGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42AFC45F22681D33007FB06D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jose Manuel Sanchez";
+				TargetAttributes = {
+					42AFC46622681D33007FB06D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					42AFC47E22681D35007FB06D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 42AFC46622681D33007FB06D;
+					};
+					42AFC48922681D36007FB06D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 42AFC46622681D33007FB06D;
+					};
+				};
+			};
+			buildConfigurationList = 42AFC46222681D33007FB06D /* Build configuration list for PBXProject "PotterGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42AFC45E22681D33007FB06D;
+			productRefGroup = 42AFC46822681D33007FB06D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AFC46622681D33007FB06D /* PotterGame */,
+				42AFC47E22681D35007FB06D /* PotterGameTests */,
+				42AFC48922681D36007FB06D /* PotterGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42AFC46522681D33007FB06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AFC46D22681D33007FB06D /* GameScene.sks in Resources */,
+				42AFC47522681D35007FB06D /* Assets.xcassets in Resources */,
+				42AFC46F22681D33007FB06D /* Actions.sks in Resources */,
+				42AFC47822681D35007FB06D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AFC47D22681D35007FB06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AFC48822681D36007FB06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42AFC46322681D33007FB06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AFC47322681D33007FB06D /* ViewController.swift in Sources */,
+				42AFC47122681D33007FB06D /* GameScene.swift in Sources */,
+				42AFC46B22681D33007FB06D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AFC47B22681D35007FB06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AFC48422681D36007FB06D /* PotterGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AFC48622681D36007FB06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AFC48F22681D36007FB06D /* PotterGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42AFC48122681D35007FB06D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42AFC46622681D33007FB06D /* PotterGame */;
+			targetProxy = 42AFC48022681D35007FB06D /* PBXContainerItemProxy */;
+		};
+		42AFC48C22681D36007FB06D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42AFC46622681D33007FB06D /* PotterGame */;
+			targetProxy = 42AFC48B22681D36007FB06D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42AFC47622681D35007FB06D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42AFC47722681D35007FB06D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42AFC49122681D36007FB06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42AFC49222681D36007FB06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		42AFC49422681D36007FB06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PotterGame/PotterGame.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PotterGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Josema.PotterGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		42AFC49522681D36007FB06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PotterGame/PotterGame.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PotterGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Josema.PotterGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		42AFC49722681D36007FB06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PotterGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Josema.PotterGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PotterGame.app/Contents/MacOS/PotterGame";
+			};
+			name = Debug;
+		};
+		42AFC49822681D36007FB06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PotterGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Josema.PotterGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PotterGame.app/Contents/MacOS/PotterGame";
+			};
+			name = Release;
+		};
+		42AFC49A22681D36007FB06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PotterGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Josema.PotterGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = PotterGame;
+			};
+			name = Debug;
+		};
+		42AFC49B22681D36007FB06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PotterGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Josema.PotterGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = PotterGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42AFC46222681D33007FB06D /* Build configuration list for PBXProject "PotterGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AFC49122681D36007FB06D /* Debug */,
+				42AFC49222681D36007FB06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42AFC49322681D36007FB06D /* Build configuration list for PBXNativeTarget "PotterGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AFC49422681D36007FB06D /* Debug */,
+				42AFC49522681D36007FB06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42AFC49622681D36007FB06D /* Build configuration list for PBXNativeTarget "PotterGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AFC49722681D36007FB06D /* Debug */,
+				42AFC49822681D36007FB06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42AFC49922681D36007FB06D /* Build configuration list for PBXNativeTarget "PotterGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AFC49A22681D36007FB06D /* Debug */,
+				42AFC49B22681D36007FB06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42AFC45F22681D33007FB06D /* Project object */;
+}
